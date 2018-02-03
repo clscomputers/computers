@@ -1,0 +1,60 @@
+menu1:
+  - title: home
+    url: index.html
+
+  - title: Man
+    url: products.html
+    subfolderitems:
+      - page: Shop1
+        subsubfolderitems:
+          - page: New Arrivals1
+            url: /account.html
+          - page: Blazers1
+            url: /register.html
+      - page: Style Zone1
+        subsubfolderitems:
+          - page: Shoes1
+            url: /single.html
+          - page: Watches1
+            url: /checkout.html
+      - page: Popular Brands1
+        subsubfolderitems:
+          - page: 499 Store1
+            url: /index.html
+          - page: Fastrack1
+            url: /typo.html
+
+
+  - title: Woman
+    url: register.html
+    subfolderitems:
+      - page: Shop2
+        subsubfolderitems:
+          - page: New Arrivals2
+            url: /index.html
+          - page: Blazers2
+            url: /typo.html
+      - page: Style Zone2
+        subsubfolderitems:
+          - page: Shoes2
+            url: /index.html
+          - page: Watches2
+            url: /typo.html
+      - page: Popular Brands2
+        subsubfolderitems:
+          - page: 499 Store2
+            url: /index.html
+          - page: Fastrack2
+            url: /typo.html
+
+
+  - title: Kids
+    url: typo.html
+
+  - title: Blog
+    url: single.html
+
+  - title: Contact
+    url: contact.html
+
+

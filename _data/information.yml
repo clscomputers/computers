@@ -1,0 +1,42 @@
+toc:
+  - title: Group 1
+    subfolderitems:
+      - page: Thing 1
+        url: /account.html
+      - page: Thing 2
+        url: /contact.html
+      - page: Thing 3
+        url: /products.html
+      - page: Thing 4
+        url: /single.html
+      - page: Thing 5
+        url: /typo.html
+  - title: Group 2
+    subfolderitems:
+      - page: Piece 1
+        url: /checkout.html
+      - page: Piece 2
+        url: /prueba.html
+      - page: Piece 3
+        url: /products.html
+      - page: Piece 4
+        url: /typo.html
+      - page: Piece 5
+        url: /typo.html
+
+
+socialmedia:  Follow Us
+docs:
+
+- title: FaceBook
+  url: products.html
+  ico: fb
+
+- title: Twitter
+  url: products.html
+  ico: twit
+
+- title: Google+
+  url: products.html
+  ico: google
+  

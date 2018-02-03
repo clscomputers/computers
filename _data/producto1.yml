@@ -1,0 +1,154 @@
+arriba:
+  - productname: Hp Envy
+    img: p-1.png
+    namedes: Portatil
+    price: 329$
+
+
+  - productname: LG
+    img: p2.jpg
+    url: product.html
+    namedes: Monitor
+    price: 100$
+
+
+  - productname: sony
+    img: p8.jpg
+    url: account.html
+    namedes: pc
+    price: 800$
+
+abajo:
+
+  - productname: Hp Envy 1
+    img: p7.jpg
+    namedes: Portatil
+    price: 329$
+
+
+  - productname: LG1
+    img: p8.jpg
+    url: product.html
+    namedes: Monitor
+    price: 100$
+
+
+  - productname: sony1
+    img: p9.jpg
+    url: account.html
+    namedes: pc
+    price: 800$
+
+
+
+
+checkbox:
+
+  - productname: samsung
+  - productname: philips
+  - productname: Hp
+  - productname: acer
+  - productname: philips
+  - productname: Hp
+  - productname: samsung
+  - productname: philips
+  - productname: Hp
+  - productname: acer
+  - productname: philips
+  - productname: Hp
+  - productname: acer
+  - productname: philips
+  - productname: Hp
+    
+
+colors:
+
+  - color: color1
+  - color: color2
+  - color: color3
+  - color: color4
+  - color: color5
+  - color: color6
+  - color: color7
+  - color: color8
+  - color: color9
+  - color: color10
+  - color: color12
+  - color: color13
+  - color: color14
+  - color: color15
+  - color: color5
+  - color: color6
+  - color: color7
+  - color: color8
+  - color: color9
+  - color: color10
+
+
+dropdown:
+
+  - title: item1
+  - name: description
+    subfolderitems1:
+      - stitle: subitem1
+        url: 
+        des: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+             Ut wisi enim ad minim veniam, 
+             quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+             consequat
+
+      - stitle: subitem2
+        url: 
+        des: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+             vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+             dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+
+      - stitle: subitem3
+        url: 
+        des: Mirum est notare quam littera gothica, quam nunc putamus parum claram, 
+             anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. 
+             Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemne
+        
+ 
+
+  - title: item2
+  - name: details
+    subfolderitems1:
+      
+      - stitle: subitem2
+        url: 
+        des: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+             vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+             dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+
+      - stitle: subitem3
+        url: 
+        des: Mirum est notare quam littera gothica, quam nunc putamus parum claram, 
+             anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. 
+             Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemne
+            
+
+  - title: item3
+  - name: more
+    subfolderitems1:
+      - stitle: subitem1
+        url: 
+        des: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+             Ut wisi enim ad minim veniam, 
+             quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+             consequat
+
+      - stitle: subitem2
+        url: 
+        des: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+             vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+             dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+
+      - stitle: subitem3
+        url: 
+        des: Mirum est notare quam littera gothica, quam nunc putamus parum claram, 
+             anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. 
+             Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemne
+                  

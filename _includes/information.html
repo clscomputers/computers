@@ -1,0 +1,33 @@
+<div class="information">
+		<div class="container">
+			<div class="infor-top">
+				<div class="col-md-3 infor-left">
+					<h3>{{ site.data.information.socialmedia }}</h3>
+					<ul>
+						{% for item in site.data.information.docs %}
+						<li><a href="{{ item.url }}"><span class="{{ item.ico }}"></span><h6>{{ item.title }}</h6></a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% for item in site.data.information.toc %}
+				<div class="col-md-3 infor-left">
+					<h3>{{ item.title }}</h3>
+					<ul>
+						{% for entry in item.subfolderitems %}
+						<li><a href="{{ entry.url }}"><p>{{ entry.page }}</p></a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+				<div class="col-md-3 infor-left">
+					<h3>Esteban Arze N° 1470 EDIF. Galeria Imperial</h3>
+					<h4>Tel:
+						<span></span>
+						4551226</h4>
+					<h5>Cochabamba-Bolivia</h5>	
+					<p><a href="mailto:example@email.com">contact@example.com</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+</div>

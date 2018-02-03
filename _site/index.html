@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>inicio</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!--Custom-Theme-files-->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="index description" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+<!--start-menu-->
+<script src="js/simpleCart.min.js"> 
+</script>
+<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/memenu.js">
+</script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
+<!--dropdown-->
+<script src="js/jquery.easydropdown.js"></script>
+<script src="js/map.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUZl_g-CydB7I7ULFb_ruadWfKbHm1J4g&callback=initMap">
+    </script>
+<script type="text/javascript">
+	$(function() {
+	
+	    var menu_ul = $('.menu_drop > li > ul'),
+	           menu_a  = $('.menu_drop > li > a');
+	    
+	    menu_ul.hide();
+	
+	    menu_a.click(function(e) {
+	        e.preventDefault();
+	        if(!$(this).hasClass('active')) {
+	            menu_a.removeClass('active');
+	            menu_ul.filter(':visible').slideUp('normal');
+	            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+	        } else {
+	            $(this).removeClass('active');
+	            $(this).next().stop(true,true).slideUp('normal');
+	        }
+	    });
+	
+	});
+</script>
+ <link rel="shortcut icon" href="/computers/icono.ico">			
+</head>
+<body> 
+	<!--top-header-->
+	<div class="top-header">
+		<div class="container">
+			<div class="top-header-main">
+				<div class="col-md-6 top-header-left">
+					<div class="drop">
+						
+						<div class="box1">
+							<select tabindex="4" class="dropdown">
+								<option value="" class="label">OPcion1:</option>
+								<option value="1">Opcion2</option>
+								<option value="2">Opcion3</option>
+								<option value="3">Opcion4</option>
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-6 top-header-left">
+					<div class="cart box_1">
+						<a href="checkout.html">
+							 <div class="total">
+								<span class="simpleCart_total"></span></div>
+								<img src="images/cart-1.png" alt="" />
+						</a>
+						<p><a href="javascript:;" class="simpleCart_empty">CArrito</a></p>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+</div>
+<div class="logo">
+		<a href="index.html"><h1><img src="logo1.png"  height="52" width="168"></h1></a>
+</div>
+	<!--start-logo-->
+	<!--start-logo-->
+	<!--top-header-->
+	
+	<!--bottom-header-->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="header">
+				<div class="col-md-9 header-left">
+				<div class="top-nav">
+					<ul class="memenu skyblue">
+						<li class="active"><a href="index.html">Inicio</a>
+						</li>
+						<li class="grid"><a href="#">Productos</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1 me-one">
+										<h4>Computadoras</h4>
+										<ul>
+											<li><a href="register.html">PC de Escritorio</a></li>
+											<li><a href="checkout.html">Gaming Computers</a></li>
+											<li><a href="account.html">Laptops</a></li>
+											<li><a href="single.html">Tabletas</a></li>
+											<li><a href="products.html">PC Semi Uso</a></li>
+										</ul>
+									</div>
+									<div class="col1 me-one">
+										<h4>Software</h4>
+										<ul>
+											<li><a href="products.html">Sistemas Operativos</a></li>
+											<li><a href="products.html">Remocion Antivirus</a></li>
+											<li><a href="products.html">Redes</a></li>
+											<li><a href="products.html">Diseño de Paginas web</a></li>
+											<li><a href="products.html">Instalacion Programas</a></li>
+											
+										</ul>	
+									</div>
+									<div class="col1 me-one">
+										<h4>Hardware</h4>
+										<ul>
+											<li><a href="products.html">Reparacion de PC<br>y laptops</a></li>
+											<li><a href="products.html">Recuperacion de datos</a></li>
+											<li><a href="products.html"> Reparacion de Pantallas</a></li>
+											<li><a href="products.html">Limpieza de hardware,<br> Laptops y PC</a></li>
+											
+											
+										</ul>		
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="grid"><a href="#">Accesorios</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1 me-one">
+										<h4>Periferico</h4>
+										<ul>
+											<li><a href="products.html">Parlantes</a></li>
+											<li><a href="products.html">Teclas y raton</a></li>
+											<li><a href="products.html">Usb</a></li>
+											<li><a href="products.html">Webcams</a></li>
+											<li><a href="products.html">Audifonos</a></li>
+										</ul>
+									</div>
+									<div class="col1 me-one">
+										<h4>Accesorios</h4>
+										<ul>
+											<li><a href="products.html">Cargador de laptop</a></li>
+											<li><a href="products.html">DVD, CDS</a></li>
+											<li><a href="products.html">Cables de Computadora</a></li>
+											<li><a href="products.html">Pilas</a></li>
+											<li><a href="products.html">Cargadores Portables</a></li>
+									</div>
+									<div class="col1 me-one">
+										<h4>Impresoras</h4>
+										<ul>
+											<li><a href="products.html">Impresoras a tinta</a></li>
+											<li><a href="products.html">Impresora multifuncional</a></li>
+											<li><a href="products.html">Impresoras 3d</a></li>
+											<li><a href="products.html">Toner</a></li>
+											<li><a href="products.html">Cartuchos y tinta</a></li>
+											
+									
+										</ul>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="grid"><a href="#">Componentes</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1 me-one">
+										<h4>Componentes</h4>
+										<ul>
+											<li><a href="products.html">Procesadores</a></li>
+											<li><a href="products.html">Cooler</a></li>
+											<li><a href="products.html">Memorias RAM</a></li>
+											<li><a href="products.html">Targetas Madres</a></li>
+											<li><a href="products.html">Targetas de Sonido y Video</a></li>
+										</ul>
+									</div>
+									<div class="col1 me-one">
+										<h4>Almacenamiento</h4>
+										<ul>
+											<li><a href="products.html">Discos Duro</a></li>
+											<li><a href="products.html">Untera</a></li>
+											<li><a href="products.html">Flash Memory</a></li>
+											
+									</div>
+									<div class="col1 me-one">
+										<h4>Monitores</h4>
+										<ul>
+											<li><a href="products.html">Led</a></li>
+											<li><a href="products.html">Gaming</a></li>
+											<li><a href="products.html">Touch Screen</a></li>
+											<li><a href="products.html">Digital</a></li>
+											
+										</ul>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="grid"><a href="typo.html">Negocios</a>
+						</li>
+						<li class="grid"><a href="contact.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-3 header-right"> 
+				<div class="search-bar">
+					<input type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
+					<input type="submit" value="">
+				</div>
+</div>
+			<div class="clearfix"> </div>
+			</div>
+		</div>
+</div>
+
+
+	<!--bottom-header-->
+	<!--banner-starts-->
+	<div class="bnr" id="home">
+	<div id="top" class="callbacks_container">
+		<ul class="rslides" id="slider4">
+			
+			<li>
+				<img src="/computers/images/b1.jpg" alt="member.name"/>
+			</li>
+			
+			<li>
+				<img src="/computers/images/b2.jpg" alt="member.name"/>
+			</li>
+			
+			<li>
+				<img src="/computers/images/b3.jpg" alt="member.name"/>
+			</li>
+			
+			<li>
+				<img src="/computers/images/s4.jpg" alt="member.name"/>
+			</li>
+			
+		</ul>
+				
+	</div>
+<div class="clearfix"> </div>
+		
+</div>
+<!--Slider-Starts-Here-->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+	<!--about-starts-->
+<div class="about"> 
+		<div class="container">
+			<div class="about-top grid-1">
+				
+				<div class="col-md-4 about-left">
+					<figure class="effect-bubba">
+						<img class="img-responsive" src="/computers/images/abt-1.jpg" alt=""/>
+						<figcaption>
+							<h2>Nulla maximus nunc</h2>
+							<p>In sit amet sapien eros Integer dolore magna aliqua</p>	
+						</figcaption>			
+					</figure>
+				</div>
+				
+				<div class="col-md-4 about-left">
+					<figure class="effect-bubba">
+						<img class="img-responsive" src="/computers/images/abt-2.jpg" alt=""/>
+						<figcaption>
+							<h2>Mauris erat augue</h2>
+							<p>andresssssssssssssssssss</p>	
+						</figcaption>			
+					</figure>
+				</div>
+				
+				<div class="col-md-4 about-left">
+					<figure class="effect-bubba">
+						<img class="img-responsive" src="/computers/images/abt-3.jpg" alt=""/>
+						<figcaption>
+							<h2>Cras elit mauris</h2>
+							<p>diegoooooooooooooooooo</p>	
+						</figcaption>			
+					</figure>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+</div>
+	<!--Aqui comienzan los productos-->
+<div class="product"> 
+		<div class="container">
+			<div class="product-top">
+				<div class="product-one">
+					  
+                     <div class="col-md-3 product-left">
+						<div class="product-main simpleCart_shelfItem">
+                         <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p-1.png" alt="" />
+						 </a>
+							<div class="product-bottom">
+								<h3>Hp Envy</h3>
+								<p>Portatil</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">329$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						</div>
+					</div>
+					
+                     <div class="col-md-3 product-left">
+						<div class="product-main simpleCart_shelfItem">
+                         <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p2.jpg" alt="" />
+						 </a>
+							<div class="product-bottom">
+								<h3>LG</h3>
+								<p>Monitor</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">100$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						</div>
+					</div>
+					
+                     <div class="col-md-3 product-left">
+						<div class="product-main simpleCart_shelfItem">
+                         <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p3.jpg" alt="" />
+						 </a>
+							<div class="product-bottom">
+								<h3>sony</h3>
+								<p>pc</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">800$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						</div>
+					</div>
+					
+                     <div class="col-md-3 product-left">
+						<div class="product-main simpleCart_shelfItem">
+                         <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p7.jpg" alt="" />
+						 </a>
+							<div class="product-bottom">
+								<h3>LG1</h3>
+								<p>Monitor</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">100$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						</div>
+					</div>
+					
+					 <div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="product-one">
+					  
+                         <div class="col-md-3 product-left">
+						     <div class="product-main simpleCart_shelfItem">
+                               <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p9.jpg" alt="" />
+						      </a>
+							<div class="product-bottom">
+								<h3>Hp Envy 1</h3>
+								<p>Portatil</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">329$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						     </div>
+					     </div>
+					
+                         <div class="col-md-3 product-left">
+						     <div class="product-main simpleCart_shelfItem">
+                               <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p6.png" alt="" />
+						      </a>
+							<div class="product-bottom">
+								<h3>LG1</h3>
+								<p>Monitor</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">100$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						     </div>
+					     </div>
+					
+                         <div class="col-md-3 product-left">
+						     <div class="product-main simpleCart_shelfItem">
+                               <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/s1.jpg" alt="" />
+						      </a>
+							<div class="product-bottom">
+								<h3>sony1</h3>
+								<p>pc</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">800$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						     </div>
+					     </div>
+					
+                         <div class="col-md-3 product-left">
+						     <div class="product-main simpleCart_shelfItem">
+                               <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="/computers/images/p8.jpg" alt="" />
+						      </a>
+							<div class="product-bottom">
+								<h3>LG1</h3>
+								<p>Monitor</p>
+								<h4><a class="item_add" href="#"><i></i></a> 
+								<span class=" item_price">100$</span></h4>
+							</div>
+							<div class="srch">
+								<span>-50%</span>
+							</div>
+						     </div>
+					     </div>
+					
+					 <div class="clearfix"></div>
+                   </div>
+        </div>
+ </div>
+
+
+
+	
+	<!--product-end-->
+	<!--information-starts-->
+	<div class="information">
+		<div class="container">
+			<div class="infor-top">
+				<div class="col-md-3 infor-left">
+					<h3>Follow Us</h3>
+					<ul>
+						
+						<li><a href="products.html"><span class="fb"></span><h6>FaceBook</h6></a></li>
+						
+						<li><a href="products.html"><span class="twit"></span><h6>Twitter</h6></a></li>
+						
+						<li><a href="products.html"><span class="google"></span><h6>Google+</h6></a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 infor-left">
+					<h3>Group 1</h3>
+					<ul>
+						
+						<li><a href="/account.html"><p>Thing 1</p></a></li>
+						
+						<li><a href="/contact.html"><p>Thing 2</p></a></li>
+						
+						<li><a href="/products.html"><p>Thing 3</p></a></li>
+						
+						<li><a href="/single.html"><p>Thing 4</p></a></li>
+						
+						<li><a href="/typo.html"><p>Thing 5</p></a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 infor-left">
+					<h3>Group 2</h3>
+					<ul>
+						
+						<li><a href="/checkout.html"><p>Piece 1</p></a></li>
+						
+						<li><a href="/prueba.html"><p>Piece 2</p></a></li>
+						
+						<li><a href="/products.html"><p>Piece 3</p></a></li>
+						
+						<li><a href="/typo.html"><p>Piece 4</p></a></li>
+						
+						<li><a href="/typo.html"><p>Piece 5</p></a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 infor-left">
+					<h3>Esteban Arze N° 1470 EDIF. Galeria Imperial</h3>
+					<h4>Tel:
+						<span></span>
+						4551226</h4>
+					<h5>Cochabamba-Bolivia</h5>	
+					<p><a href="mailto:example@email.com">contact@example.com</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+</div>
+	<!--information-end-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-6 footer-left">
+					<form>
+						<input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="col-md-6 footer-right">					
+					<p>© CLS Computers. Derechos Reservados | Design by  <a href="133#2222" target="_blank">W3layouts</a> </p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+</div>
+	
+	<!--footer-end-->	
+</body>
+</html>

@@ -1,0 +1,252 @@
+{% for item in site.data.samplelist.toc %}
+    <h3>{{ item.title }}</h3>
+      <ul>
+        {% for entry in item.subfolderitems %}
+          <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+        {% endfor %}
+      </ul>
+{% endfor %}
+
+<h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+
+<!--Caso 2 loop jekyll-->
+
+
+<div>
+{% if site.data.samplelist.toc2[0] %}
+  {% for item in site.data.samplelist.toc2 %}
+    <h3>{{ item.title }}</h3>
+      {% if item.subfolderitems[0] %}
+        <ul>
+          {% for entry in item.subfolderitems %}
+              <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                {% if entry.subsubfolderitems[0] %}
+                  <ul>
+                  {% for subentry in entry.subsubfolderitems %}
+                      <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+{% endif %}
+</div>
+
+<!--fin caso complejo-->
+<img src="logo1.png"  height="53" width="164">
+
+<!--dropdown accordion--> 
+<div class="tabs">
+					<ul class="menu_drop">
+                       {% for item in site.data.producto1.dropdown %}
+				         <li class="{{ item.title }}"><a href="#"><img src="{{ site.baseurl }}/images/{{ item.img }}" alt="">{{ item.name }}</a>
+					        <ul>
+					        	{% for entry in item.subfolderitems %}
+						       <li class="{{ entry.stitle }}"><a href="#">
+						       	{{ entry.des }}
+						       </a>
+						       </li>
+						       {% endfor %}
+						       
+						    </ul>
+				        </li>
+				       {% endfor %}
+				    </ul>
+				</div>
+
+
+<!--header bottom menu three level-->
+<div class="header-bottom">
+		<div class="container">
+			<div class="header">
+				<div class="col-md-9 header-left">
+				<div class="top-nav">
+					<ul class="memenu skyblue">
+						{% if site.data.menu.menu1[0] %}
+						{% for item in site.data.menu.menu1 %}
+						<li class="grid"><a href="{{ item.url }}">{{ item.title }}</a>
+							<div class="mepanel">
+								<div class="row">
+									{% if item.subfolderitems[0] %}
+									{% for entry in item.subfolderitems %}
+									<div class="col1 me-one">
+										<h4>{{ entry.page }}</h4>
+										{% if entry.subsubfolderitems[0] %}
+										<ul>
+											{% for subentry in entry.subsubfolderitems %}
+											<li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+											{% endfor %}
+											
+										</ul>
+										{% endif %}
+									</div>
+									{% endfor %}
+									{% endif %}
+								</div>
+							</div>
+						</li>
+						{% endfor %}
+						{% endif %}
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			{% include search.html %}
+			<div class="clearfix"> </div>
+			</div>
+		</div>
+</div>
+
+
+<!--discount form-->
+<section class="sky-form">
+							<h4>discount</h4>
+							<div class="row1 row2 scroll-pane">
+								<div class="col col-4">
+									<label class="radio"><input type="radio" name="radio" checked=""><i></i>60 % and above</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>50 % and above</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>40 % and above</label>
+								</div>
+								<div class="col col-4">
+									<label class="radio"><input type="radio" name="radio"><i></i>30 % and above</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>20 % and above</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>10 % and above</label>
+								</div>
+							</div>						
+						</section>
+<!--Discount section-->
+<section class="sky-form">
+							<h4>discount</h4>
+								<div class="row1 row2 scroll-pane">
+									<div class="col col-4">
+										<label class="radio"><input type="radio" name="radio" checked=""><i></i>60 % and above</label>
+										<label class="radio"><input type="radio" name="radio"><i></i>50 % and above</label>
+										<label class="radio"><input type="radio" name="radio"><i></i>40 % and above</label>
+									</div>
+									<div class="col col-4">
+										<label class="radio"><input type="radio" name="radio"><i></i>30 % and above</label>
+										<label class="radio"><input type="radio" name="radio"><i></i>20 % and above</label>
+										<label class="radio"><input type="radio" name="radio"><i></i>10 % and above</label>
+									</div>
+								</div>						
+</section>
+
+
+
+<div class="header-bottom">
+		<div class="container">
+			<div class="header">
+				<div class="col-md-9 header-left">
+				<div class="top-nav">
+					<ul class="memenu skyblue">
+						<li class="active"><a href="index.html">Home</a>
+						</li>
+						<li class="grid"><a href="#">Men</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1 me-one">
+										<h4>Shop</h4>
+										<ul>
+											<li><a href="products.html">New Arrivals</a></li>
+											<li><a href="products.html">Blazers</a></li>
+											<li><a href="products.html">Swem Wear</a></li>
+											<li><a href="products.html">Accessories</a></li>
+											<li><a href="products.html">Handbags</a></li>
+											<li><a href="products.html">T-Shirts</a></li>
+											<li><a href="products.html">Watches</a></li>
+											<li><a href="products.html">My Shopping Bag</a></li>
+										</ul>
+									</div>
+									<div class="col1 me-one">
+										<h4>Style Zone</h4>
+										<ul>
+											<li><a href="products.html">Shoes</a></li>
+											<li><a href="products.html">Watches</a></li>
+											<li><a href="products.html">Brands</a></li>
+											<li><a href="products.html">Coats</a></li>
+											<li><a href="products.html">Accessories</a></li>
+											<li><a href="products.html">Trousers</a></li>
+										</ul>	
+									</div>
+									<div class="col1 me-one">
+										<h4>Popular Brands</h4>
+										<ul>
+											<li><a href="products.html">499 Store</a></li>
+											<li><a href="products.html">Fastrack</a></li>
+											<li><a href="products.html">Casio</a></li>
+											<li><a href="products.html">Fossil</a></li>
+											<li><a href="products.html">Maxima</a></li>
+											<li><a href="products.html">Timex</a></li>
+											<li><a href="products.html">TomTom</a></li>
+											<li><a href="products.html">Titan</a></li>
+										</ul>		
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="grid"><a href="#">Women</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1 me-one">
+										<h4>Shop</h4>
+										<ul>
+											<li><a href="products.html">New Arrivals</a></li>
+											<li><a href="products.html">Blazers</a></li>
+											<li><a href="products.html">Swem Wear</a></li>
+											<li><a href="products.html">Accessories</a></li>
+											<li><a href="products.html">Handbags</a></li>
+											<li><a href="products.html">T-Shirts</a></li>
+											<li><a href="products.html">Watches</a></li>
+											<li><a href="products.html">My Shopping Bag</a></li>
+										</ul>
+									</div>
+									<div class="col1 me-one">
+										<h4>Style Zone</h4>
+										<ul>
+											<li><a href="products.html">Shoes</a></li>
+											<li><a href="products.html">Watches</a></li>
+											<li><a href="products.html">Brands</a></li>
+											<li><a href="products.html">Coats</a></li>
+											<li><a href="products.html">Accessories</a></li>
+											<li><a href="products.html">Trousers</a></li>
+										</ul>
+									</div>
+									<div class="col1 me-one">
+										<h4>Popular Brands</h4>
+										<ul>
+											<li><a href="products.html">499 Store</a></li>
+											<li><a href="products.html">Fastrack</a></li>
+											<li><a href="products.html">Casio</a></li>
+											<li><a href="products.html">Fossil</a></li>
+											<li><a href="products.html">Maxima</a></li>
+											<li><a href="products.html">Timex</a></li>
+											<li><a href="products.html">TomTom</a></li>
+											<li><a href="products.html">Titan</a></li>
+										</ul>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="grid"><a href="products.html">Kids</a>
+							
+						</li>
+						<li class="grid"><a href="typo.html">Blog</a>
+						</li>
+						<li class="grid"><a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			{% include search.html %}
+			<div class="clearfix"> </div>
+			</div>
+		</div>
+</div>
