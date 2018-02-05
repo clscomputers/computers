@@ -12,5 +12,5 @@ baseurl: /computers
 algolia:
   application_id: 'L5J3IKHT56'
   index_name:     'getstarted_actors'
-  search_only_api_key: '050d04fdcad718ac513bdbb856415a42'
+  search_only_api_key:  '050d04fdcad718ac513bdbb856415a42'
 

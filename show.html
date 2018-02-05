@@ -3,15 +3,42 @@ layout: default
 title: Show
 description: register description
 ---
-	<!--Show starts here-->
 
-	<div id="search-box">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<div id="search-box">
   <!-- SearchBox widget will appear here -->
-   </div>
+</div>
+<div id="hits">
 
-    <div id="hits">
   <!-- Hits widget will appear here -->
-   </div>
+</div>
 
-	
-	<!--register-end-->
+<script>
+const search = instantsearch({
+  appId: '{{ L5J3IKHT56 }}',
+  indexName: '{{ getstarted_actors }}',
+  apiKey: '{{ 050d04fdcad718ac513bdbb856415a42 }}'
+});
+  
+
+  // initialize SearchBox
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      placeholder: 'Search for products'
+    })
+  );
+
+  // initialize hits widget
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits'
+    })
+  );
+
+  search.start();
+</script>
