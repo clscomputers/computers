@@ -118,7 +118,7 @@
 									<div class="col1 me-one">
 										<h4>Software</h4>
 										<ul>
-											<li><a href="products.html">Sistemas Operativos</a></li>
+											<li><a href="typo.html">Sistemas Operativos</a></li>
 											<li><a href="products.html">Remocion Antivirus</a></li>
 											<li><a href="products.html">Redes</a></li>
 											<li><a href="products.html">Diseño de Paginas web</a></li>
@@ -220,11 +220,47 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 header-right"> 
-				<div class="search-bar">
-					<input type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
-					<input type="submit" value="">
-				</div>
+	<div class="search-bar">
+		<input type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
+		<input type="submit" value="">
+	</div>
 </div>
+<li class="results">
+  
+</li>
+ <!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '',
+  indexName: '',
+  apiKey: ''
+});
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-bar',
+    placeholder: 'Search'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.results'
+  })
+);
+
+// Starting the search
+search.start();
+</script>
+
+
+
+
 			<div class="clearfix"> </div>
 			</div>
 		</div>

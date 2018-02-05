@@ -1,6 +1,10 @@
 <div class="col-md-3 header-right"> 
-				<div class="search-bar">
-					<input type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
-					<input type="submit" value="">
-				</div>
+	<div class="search-bar">
+		<input type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
+		<input type="submit" value="">
+	</div>
 </div>
+<li class="results">
+  {{ hit.name }}
+</li>
+ {% include algolia.html %}

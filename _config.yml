@@ -1,8 +1,16 @@
 # Settings For github-pages
+
 email: your-email@example.com
 baseurl: "computers" # the subpath of your site, e.g. /blog
 url: "" 
 baseurl: /computers
 
-# Beautifull Permalinks for Cls-computers
+
+
+#Algolia seacr api key
+
+algolia:
+  application_id: 'L5J3IKHT56'
+  index_name:     'getstarted_actors'
+  search_only_api_key: '050d04fdcad718ac513bdbb856415a42'
 
