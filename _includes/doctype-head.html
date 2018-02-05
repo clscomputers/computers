@@ -50,5 +50,42 @@
 	
 	});
 </script>
- <link rel="shortcut icon" href="{{ "/icono.ico" | prepend: site.baseurl }}">			
+ <link rel="shortcut icon" href="{{ "/icono.ico" | prepend: site.baseurl }}">
+
+<!--Algolia search libraries css and jaascript-->
+<!-- Including InstantSearch.js library and styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '{{ L5J3IKHT56 }}',
+  indexName: '{{ getstarted_actors }}',
+  apiKey: '{{ 050d04fdcad718ac513bdbb856415a42 }}',
+  urlSync: true
+});
+
+const search = instantsearch(options);
+
+  // initialize SearchBox
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      placeholder: 'actor'
+    })
+  );
+
+  // initialize hits widget
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits'
+    })
+  );
+
+// Starting the search
+search.start();
+</script>
+
 </head>

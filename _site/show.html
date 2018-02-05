@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>inicio</title>
+<title>Show</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -11,7 +11,7 @@
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="index description" />
+<meta name="keywords" content="register description" />
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 </script>
@@ -50,7 +50,44 @@
 	
 	});
 </script>
- <link rel="shortcut icon" href="/computers/icono.ico">			
+ <link rel="shortcut icon" href="/computers/icono.ico">
+
+<!--Algolia search libraries css and jaascript-->
+<!-- Including InstantSearch.js library and styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '',
+  indexName: '',
+  apiKey: '',
+  urlSync: true
+});
+
+const search = instantsearch(options);
+
+  // initialize SearchBox
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      placeholder: 'actor'
+    })
+  );
+
+  // initialize hits widget
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits'
+    })
+  );
+
+// Starting the search
+search.start();
+</script>
+
 </head>
 <body> 
 	<!--top-header-->
@@ -108,7 +145,7 @@
 									<div class="col1 me-one">
 										<h4>Computadoras</h4>
 										<ul>
-											<li><a href="register.html">PC de Escritorio</a></li>
+											<li><a href="show.html">PC de Escritorio</a></li>
 											<li><a href="checkout.html">Gaming Computers</a></li>
 											<li><a href="account.html">Laptops</a></li>
 											<li><a href="single.html">Tabletas</a></li>
@@ -237,58 +274,28 @@
 
 	<!--bottom-header-->
 	<!--banner-starts-->
-	<div class="product"> 
-		<div class="container">
-			<div class="product-top">
-				<div class="product-one">
-					<div class="post-list" id="search-hits">
-    
-                    </div>
-					  
-                </div>
-				</div>
-			</div>
+	<div class="breadcrumbs">
+	<div class="container">
+		<div class="breadcrumbs-main">
+			<ol class="breadcrumb">
+			  <li><a href="index.html">Inicio</a></li>
+				 <li class="active">Show</li>
+			</ol>
+		</div>
+	</div>
+</div>
+	<!--Show starts here-->
 
- </div>
- <!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+	<div id="search-box">
+  <!-- SearchBox widget will appear here -->
+   </div>
 
-<script>
-// Instanciating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: '',
-  indexName: '',
-  apiKey: ''
-});
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'Buscar'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits'
-  })
-);
-
-// Starting the search
-search.start();
-</script>
-
-
-
-
-
-
-
-
+    <div id="hits">
+  <!-- Hits widget will appear here -->
+   </div>
 
 	
+	<!--register-end-->
 	<!--product-end-->
 	<!--information-starts-->
 	<div class="information">
