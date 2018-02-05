@@ -14,13 +14,13 @@ const search = instantsearch({
 // Adding searchbar and results widgets
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: '.search-bar',
-    placeholder: 'Search'
+    container: '#search-searchbar',
+    placeholder: 'Buscar'
   })
 );
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '.results'
+    container: '#search-hits'
   })
 );
 

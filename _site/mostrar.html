@@ -224,8 +224,32 @@
 		<input type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
 		<input type="submit" value="">
 	</div>
+	
 </div>
 
+
+
+			<div class="clearfix"> </div>
+			</div>
+		</div>
+</div>
+
+
+	<!--bottom-header-->
+	<!--banner-starts-->
+	<div class="product"> 
+		<div class="container">
+			<div class="product-top">
+				<div class="product-one">
+					<div class="post-list" id="search-hits">
+    
+                    </div>
+					  
+                </div>
+				</div>
+			</div>
+
+ </div>
  <!-- Including InstantSearch.js library and styling -->
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
@@ -242,13 +266,13 @@ const search = instantsearch({
 // Adding searchbar and results widgets
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: '.search-bar',
-    placeholder: 'Search'
+    container: '#search-searchbar',
+    placeholder: 'Buscar'
   })
 );
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '.results'
+    container: '#search-hits'
   })
 );
 
@@ -257,58 +281,6 @@ search.start();
 </script>
 
 
-
-
-			<div class="clearfix"> </div>
-			</div>
-		</div>
-</div>
-
-
-	<!--bottom-header-->
-	<!--banner-starts-->
-	<div class="product"> 
-		<div class="container">
-			<div class="product-top">
-				<div class="product-one">
-					<li class="results">
-                      }
-                  </li>
-					  
-                </div>
-				</div>
-			</div>
- </div>
-
-  <!-- Including InstantSearch.js library and styling -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
-
-<script>
-// Instanciating InstantSearch.js with Algolia credentials
-const search = instantsearch({
-  appId: '',
-  indexName: '',
-  apiKey: ''
-});
-
-// Adding searchbar and results widgets
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '.search-bar',
-    placeholder: 'Search'
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '.results'
-  })
-);
-
-// Starting the search
-search.start();
-</script>
 
 
 

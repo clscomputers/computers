@@ -10,15 +10,16 @@ description: index description
 		<div class="container">
 			<div class="product-top">
 				<div class="product-one">
-					<li class="results">
-                      {{{ hit._highlightResult.name.value }}}
-                  </li>
+					<div class="post-list" id="search-hits">
+    
+                    </div>
 					  
                 </div>
 				</div>
 			</div>
-			{% include algolia.html %}
+
  </div>
+ {% include algolia.html %}
 
 
 
