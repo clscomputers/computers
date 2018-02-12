@@ -1,44 +1,78 @@
----
-layout: default
-title: Show
-description: register description
----
+<!doctype html>
+<html>
+<head>
+  <title>Instant Search Tutorial</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!-- IE < 10 support -->
+  <!--[if lte IE 9]>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/hilnmyskv/image/upload/c_fit,w_32,h_32/algolia-mark.ico" />
+</head>
+<body>
 
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+  <!-- INTERFACE -->
+  <header>
+    <a href="."><img src="logo1.png"/></a>
+    <div id="search-input"></div>
+  </header>
 
-<div id="search-box">
-  <!-- SearchBox widget will appear here -->
-</div>
-<div id="hits">
+  <main>
+    <div id="left-column">
+      <div id="hierarchical-categories" class="facet"></div>
+      <div id="brand" class="facet"></div>
+      <div id="stars" class="facet"></div>
+      <div id="price" class="facet"></div>
+      <div id="price-range" class="facet"></div>
+      <div id="type" class="facet"></div>
+      <div id="popularity-selector" class="facet"></div>
+      <div id="free-shipping" class="facet"></div>
+    </div>
 
-  <!-- Hits widget will appear here -->
-</div>
+    <div id="right-column">
+      <div id="sort-by-wrapper"><span id="sort-by"></span></div>
+      <div id="stats"></div>
+      <div id="active-filters"></div>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+    </div>
+  </main>
 
-<script>
-const search = instantsearch({
-  appId: '{{ L5J3IKHT56 }}',
-  indexName: '{{ getstarted_actors }}',
-  apiKey: '{{ 050d04fdcad718ac513bdbb856415a42 }}'
-});
+  <!-- /INTERFACE -->
+
+  <!-- TEMPLATES -->
+  <script type="text/html" id="hit-template">
+    <div class="hit">
+      <div class="hit-image">
+        <img src="{{image}}" alt="{{name}}">
+      </div>
+      <div class="hit-content">
+        <h3 class="hit-price">${{price}}</h3>
+        <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
+        <p class="hit-category-breadcrumb">{{{categories}}}</p>
+        <p class="hit-stars">{{{starsLayout}}} ({{popularity}})</p>
+        <p class="hit-description">{{{_highlightResult.description.value}}}</p>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/html" id="no-results-template">
+    <div id="no-results-message">
+      <p>We didn't find any results for the search <em>"{{query}}"</em>.</p>
+      <a href="." class='clear-all'>Clear search</a>
+    </div>
+  </script>
+  <!-- /TEMPLATES -->
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+  <script src="search.js"></script>
+  <!-- /SCRIPTS -->
+
+  <!-- GA -->
   
-
-  // initialize SearchBox
-  search.addWidget(
-    instantsearch.widgets.searchBox({
-      container: '#search-box',
-      placeholder: 'Search for products'
-    })
-  );
-
-  // initialize hits widget
-  search.addWidget(
-    instantsearch.widgets.hits({
-      container: '#hits'
-    })
-  );
-
-  search.start();
-</script>
+</body>
+</html>

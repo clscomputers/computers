@@ -250,3 +250,48 @@
 			</div>
 		</div>
 </div>
+<script type="text/html" id="hit-template">
+	
+		<div>
+			<h3>{{price}}</h3>
+			<h2>{{name}}</h2>
+			<p>{{description}}</p>
+	   </div>
+	
+</script>
+,
+      templates:{
+      item: document.getElementById('hit-template').innerHTML,
+      empty: 'No results'
+    }
+
+
+<div class="ais-search-box">
+  <input autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="Search for products" role="textbox" spellcheck="false" type="text" value="" class="ais-search-box--input">
+  <span>
+    <div class="ais-search-box--powered-by">
+      Search by
+      <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=community.algolia.com&amp;utm_campaign=poweredby" target="_blank">
+        Algolia
+      </a>
+    </div>
+  </span>
+</div>
+
+<!--Algolia DOM-->
+<div class="container">
+      <h2>
+        Productos
+      </h2>
+      <label>search:
+         <input id="searchBox" />
+      </label>
+      
+      
+        <div id="hits">
+        	
+        </div>
+        <div id="pagination">
+  <!-- Pagination widget will appear here -->
+</div>
+    </div>
