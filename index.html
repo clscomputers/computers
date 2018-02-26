@@ -6,9 +6,9 @@ description: index description
 <div class="bnr" id="home">
 	<div id="top" class="callbacks_container">
 		<ul class="rslides" id="slider4">
-			{% for member in site.data.slide %}
+			{% for member in site.slide %}
 			<li>
-				<img src="{{ site.baseurl }}/images/{{ member.img }}" alt="member.name"/>
+				<img src="{{ member.img }}" alt="member.name"/>
 			</li>
 			{% endfor %}
 		</ul>
