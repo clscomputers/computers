@@ -23,6 +23,8 @@ function app(opts) {
     urlSync: true,
     searchFunction: opts.searchFunction,
   });
+
+
  
   // ---------------------
   //
@@ -33,6 +35,7 @@ function app(opts) {
     instantsearch.widgets.searchBox({
       container: '#search-input',
       placeholder: 'Buscar',
+      
     })
   );
 
@@ -103,7 +106,7 @@ function app(opts) {
       ],
       showParentLevel: true,
       templates: {
-        header: getHeader('Category'),
+        header: getHeader('Categorias ClsComputers'),
         item:  '<a href="{{url}}" class="facet-item {{#isRefined}}active{{/isRefined}}"><span class="facet-name"><i class="fa fa-angle-right"></i> {{label}}</span class="facet-name"><span class="ais-hierarchical-menu--count">{{count}}</span></a>' // eslint-disable-line
       },
     })
@@ -118,13 +121,13 @@ function app(opts) {
         limit: 10,
       },
       searchForFacetValues: {
-        placeholder: 'Search for brands',
+        placeholder: 'Buscar por Marcas',
         templates: {
           noResults: '<div class="sffv_no-results">No matching brands.</div>',
         },
       },
       templates: {
-        header: getHeader('Brand'),
+        header: getHeader('Marcas'),
       },
       collapsible: {
         collapsed: false,
@@ -142,7 +145,7 @@ function app(opts) {
         },
       },
       templates: {
-        header: getHeader('Price'),
+        header: getHeader('Precios'),
       },
       collapsible: {
         collapsed: false,

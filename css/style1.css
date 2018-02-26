@@ -35,13 +35,6 @@ header {
   height: 80px;
   margin-top: 40px;
 }
-header img {
-  position: absolute;
-  top: 9px;
-  left: 0;
-  float: left;
-  max-width: 23%;
-}
 .ais-search-box {
   max-width: none;
 }
@@ -74,7 +67,8 @@ header img {
 #search-input input:focus {
   border-color: #ed5565;
 }
-#search-input input::-webkit-input-placeholder, #search-input input:-moz-placeholder, #search-input input:-moz-placeholder, #search-input input:-ms-input-placeholder {
+#search-input input::-webkit-input-placeholder, #search-input input:-moz-placeholder, 
+#search-input input:-moz-placeholder, #search-input input:-ms-input-placeholder {
   font-weight: 100;
   color: #999;
 }
