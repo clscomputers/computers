@@ -1,4 +1,4 @@
 ---
 name: slide2
-img: images/b2.jpg
+img_path: images/b2.jpg
 ---
