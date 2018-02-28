@@ -1,5 +1,5 @@
 ---
 name: slide2
-img_path: images/bg-slide.jpg
+img_path: /images/b2.jpg
 ---
 
