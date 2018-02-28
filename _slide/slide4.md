@@ -1,4 +1,5 @@
 ---
 name: slide1
-img_path: images/s4.jpg
+img_path: /images/bg-slide.jpg
 ---
+
