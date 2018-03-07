@@ -1,5 +1,5 @@
 ---
 name: slide2
-img_path: images/asus.jpg
+img_path: /images/b3.jpg
 ---
 
