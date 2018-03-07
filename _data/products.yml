@@ -2,44 +2,37 @@ arriba:
   - productname: Hp Envy
     image_path: images/p-1.png
     namedes: Portatil
-    price: 400$
-
+    price: 500$
   - productname: LG
     image_path: images/p2.jpg
     url: product.html
     namedes: Monitor
     price: 100$
-
   - productname: sony
     image_path: images/p3.jpg
     url: account.html
     namedes: pc
     price: 800$
-
   - productname: LG1
     image_path: images/p7.jpg
     url: product.html
     namedes: Monitor
     price: 100$
-
 abajo:
   - productname: Hp Envy 1
     image_path: images/p9.jpg
     namedes: Portatil
     price: 329$
-
   - productname: LG1
     image_path: images/p6.png
     url: product.html
     namedes: Monitor
     price: 100$
-
   - productname: sony1
     image_path: images/s1.jpg
     url: account.html
     namedes: pc
     price: 800$
-
   - productname: LG1
     image_path: images/p8.jpg
     url: product.html
