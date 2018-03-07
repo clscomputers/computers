@@ -2,7 +2,7 @@ arriba:
   - productname: Hp Envy
     image_path: images/p-1.png
     namedes: Portatil
-    price: 500$
+    price: 600$
   - productname: LG
     image_path: images/p2.jpg
     url: product.html
