@@ -2,8 +2,12 @@
 		<div class="container">
 			<div class="footer-top">
 				<div class="col-md-6 footer-left">
-					<form>
-						<input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+					<form action="https://tinyletter.com/clscomputers" method="post" 
+					      target="popupwindow" 
+                          onsubmit="window.open('https://tinyletter.com/clscomputers', 'popupwindow', 'scrollbars=yes,width=800,height=600');
+                     return true">
+						<input type="text" name="email" id="tlemail" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+						
 						<input type="submit" value="Subscribe">
 					</form>
 				</div>
