@@ -17,3 +17,10 @@ algolia:
   index_name:     'getstarted_actors'
   search_only_api_key:  '050d04fdcad718ac513bdbb856415a42'
 
+
+
+
+plugins:
+    - jekyll-seo-tag
+
+
