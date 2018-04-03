@@ -128,7 +128,7 @@
 										<ul>
 											<li><a href="show.html">PC de Escritorio</a></li>
 											<li><a href="show1.html">Gaming Computers</a></li>
-											<li><a href="account.html">Laptops</a></li>
+											<li><a href="show2.html">Laptops</a></li>
 											<li><a href="single.html">Tabletas</a></li>
 											<li><a href="products.html">PC Semi Uso</a></li>
 										</ul>
@@ -237,12 +237,22 @@
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="col-md-3 header-right"> 
+			<!-- Include stylesheet -->
+<link href="css/style3.css" rel=stylesheet />
+<div class="col-md-3 header-right"> 
 	<div class="search-bar">
-		<input id="search-input" type="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
-		<input type="submit" value="">
+		<input id="aa-search-input" class="aa-input-search" type="text" value="Buscar"
+		 name="search" autocomplete="off" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
+		 
+		
 	</div>
 </div>
+
+<!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="js/app2.js"></script>
+
 
 
 

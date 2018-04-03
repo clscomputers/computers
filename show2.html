@@ -1,19 +1,13 @@
 <!-- Include stylesheet -->
 <link href="css/style3.css" rel=stylesheet />
-<div class="col-md-3 header-right"> 
-	<div class="search-bar">
-		<input id="aa-search-input" class="aa-input-search" type="text" value="Buscar"
-		 name="search" autocomplete="off" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
-		 
-		
-	</div>
-</div>
+
+<!-- HTML Markup -->
+    <input type="search" id="aa-search-input" class="aa-input-search"
+            placeholder="Buscar" name="search" autocomplete="off" />
+
+    
 
 <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
 <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 <script src="js/app2.js"></script>
-
-
-
-
