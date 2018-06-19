@@ -46,6 +46,7 @@ GEM
       json (~> 2.0)
       nokogiri (~> 1.6)
       verbal_expressions (~> 0.1.5)
+    jekyll-analytics (0.1.11)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
@@ -86,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.7, >= 3.7.2)
   jekyll-algolia
+  jekyll-analytics
   jekyll-seo-tag
 
 BUNDLED WITH

@@ -21,8 +21,14 @@ title: Cls Computers Service
 description: Cls Computers servicios de reparacion de hardware y software,
              como tambien vendemos computadoras Desktops, Gaming Computers, laptops & y mucho mas.
 
-
 plugins:
     - jekyll-seo-tag
+    - jekyll-analytics
+
+#Jekyll Analytics
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-121083457-1          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 
