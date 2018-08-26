@@ -17,30 +17,7 @@ description: Tu computadora está fallando y no sabes qué le puede estar sucedi
 			<div class="ckeckout-top">
 			<div class="cart-items">
 			 <h3>Cls Computers Service, Software</h3>
-				<script>$(document).ready(function(c) {
-					$('.close1').on('click', function(c){
-						$('.cart-header').fadeOut('slow', function(c){
-							$('.cart-header').remove();
-						});
-						});	  
-					});
-			   </script>
-			<script>$(document).ready(function(c) {
-					$('.close2').on('click', function(c){
-						$('.cart-header1').fadeOut('slow', function(c){
-							$('.cart-header1').remove();
-						});
-						});	  
-					});
-			   </script>
-			   <script>$(document).ready(function(c) {
-					$('.close3').on('click', function(c){
-						$('.cart-header2').fadeOut('slow', function(c){
-							$('.cart-header2').remove();
-						});
-						});	  
-					});
-			   </script>
+				{% include chartitemjs.html %}
 				
 			<div class="in-check" >
 				<ul class="unit">

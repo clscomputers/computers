@@ -1,0 +1,37 @@
+<div class="tabs">
+					<ul class="menu_drop">
+                       {% for i in site.data.producto1.dropdown %}
+				         <li class="{{ i.title }}"><a href="#">
+				         	<img src="images/arrow.png" alt="">{{ i.name }}</a>
+					        <ul>
+					        	{% for entry in i.subfolderitems1 %}
+						       <li class="{{ entry.stitle }}">{{ entry.des }}
+						       </li>
+						       {% endfor %}
+						       
+						    </ul>
+				        </li>
+				       {% endfor %}
+				    </ul>
+				</div>
+				<div class="latestproducts">
+					<div class="product-one">
+						{% for pr2 in site.data.producto1.abajo %}
+						<div class="col-md-4 product-left p-left">
+							<div class="product-main simpleCart_shelfItem">
+								<a href="single.html" class="mask">
+									<img class="img-responsive zoom-img" src="{{ site.baseurl }}/images/{{ pr2.img }}" alt="" /></a>
+								<div class="product-bottom">
+									<h3>{{ pr2.productname }}</h3>
+									<p>{{ pr2.namedes }}</p>
+									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">{{ pr2.price }}</span></h4>
+								</div>
+								<div class="srch srch1">
+									<span>-50%</span>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<div class="clearfix"></div>
+					</div>
+				</div>

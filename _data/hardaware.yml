@@ -1,0 +1,33 @@
+arriba:
+  - cheader: cart-header
+  - cheader: cart-header1
+  - cheader: cart-header2
+  - cheader: cart-header3
+  - cheader: cart-header4
+  - cheader: cart-header5
+  - cheader: cart-header6
+  
+  
+ 
+close:
+ - cerrar: close1
+ - cerrar: close2  
+ - cerrar: close3  
+ - cerrar: close4  
+ - cerrar: close5  
+ - cerrar: close6  
+ - cerrar: close7
+
+
+img:
+ - image_path: images/hardware.jpg
+ - image_path: images/data-recovery.jpg 
+ - image_path: images/reparacion-de-pantalla.jpg  
+ - image_path: images/targeta_madre.jpg 
+ - image_path: images/cambio-tecla.jpg  
+ - image_path: images/procesador.jpg  
+ - image_path: images/images/ram.jpg
+
+    
+    
+  

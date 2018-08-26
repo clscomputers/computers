@@ -1,20 +1,20 @@
 arriba:
   - productname: Hp Envy
-    image_path: images/p-1.png
+    image_path: images/corei78700.png
     namedes: Portatil
     price: 600$
   - productname: LG
-    image_path: images/p2.jpg
+    image_path: images/corei5-8400.png
     url: product.html
     namedes: Monitor
     price: 100$
   - productname: sony
-    image_path: images/p3.jpg
+    image_path: images/core-i3-8100.png
     url: account.html
     namedes: pc
     price: 800$
   - productname: LG1
-    image_path: images/p7.jpg
+    image_path: images/corei78700.png
     url: product.html
     namedes: Monitor
     price: 100$

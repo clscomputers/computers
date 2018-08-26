@@ -1,0 +1,33 @@
+<div class="bnr" id="home">
+	<div id="top" class="callbacks_container">
+		<ul class="rslides" id="slider4">
+			{% for member in site.slide %}
+			<li>
+				<img src="{{ member.img_path }}" alt="member.name"/>
+			</li>
+			{% endfor %}
+		</ul>
+				
+	</div>
+<div class="clearfix"> </div>
+		
+</div>
+{% include sliderjs.html %}
+<div class="about"> 
+		<div class="container">
+			<div class="about-top grid-1">
+				{% for prd in site.data.about %}
+				<div class="col-md-4 about-left">
+					<figure class="effect-bubba">
+						<img class="img-responsive" src="{{ prd.image_path }}" alt=""/>
+						<figcaption>
+							<h2>{{ prd.producto }}</h2>
+							<p>{{ prd.descripcion}}</p>	
+						</figcaption>			
+					</figure>
+				</div>
+				{% endfor %}
+				<div class="clearfix"></div>
+			</div>
+		</div>
+</div>
