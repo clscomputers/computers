@@ -3,12 +3,12 @@
 <head>
  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a9d882169eea20013a1980b&product=sticky-share-buttons"></script>
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ default: site.title | escape }}{% endif %}</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
-<script src="js/jquery-1.11.0.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery-1.11.0.min.js"></script>
 <!--Custom-Theme-files-->
 <!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="{{ site.baseurl }}/css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,15 +17,15 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 </script>
 <!--start-menu-->
-<script src="js/simpleCart.min.js"> 
+<script src="{{ site.baseurl }}/js/simpleCart.min.js"> 
 </script>
-<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/memenu.js">
+<link href="{{ site.baseurl }}/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="{{ site.baseurl }}/js/memenu.js">
 </script>
 <script>$(document).ready(function(){$(".memenu").memenu();});</script>	
 <!--dropdown-->
-<script src="js/jquery.easydropdown.js"></script>
-<script src="js/map.js"></script>
+<script src=" {{ site.baseurl }}/js/jquery.easydropdown.js"></script>
+<script src="{{ site.baseurl }}/js/map.js"></script>
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUZl_g-CydB7I7ULFb_ruadWfKbHm1J4g&callback=initMap">
     </script>
@@ -38,9 +38,9 @@
 
 
 <!-- FlexSlider -->
-						<script src="js/imagezoom.js"></script>
-						<script defer src="js/jquery.flexslider.js"></script>
-						<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+						<script src="{{ site.baseurl }}/js/imagezoom.js"></script>
+						<script defer src="{{ site.baseurl }}/js/jquery.flexslider.js"></script>
+						<link rel="stylesheet" href="{{ site.baseurl }}/css/flexslider.css" type="text/css" media="screen" />
 
 						<script>
 						// Can also be used with $(document).ready()

@@ -8,4 +8,11 @@ categoria: procesador
 precio: 250 Bs
 detalle: Nucleos 6, frecuencia del procesador 3.20 GHz, 12mb cache inteligente
 _image: images/corei78700.png
+
+
+
+images:
+  - image: images/p7.jpg
+  - image: images/p7.jpg
+  - image: images/p7.jpg
 ---

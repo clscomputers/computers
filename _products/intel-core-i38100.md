@@ -8,4 +8,10 @@ categoria: procesador
 precio: 250 Bs
 detalle: Nucleos 6, frecuencia del procesador 3.20 GHz, 12mb cache inteligente
 _image: images/core-i3-8100.png
+
+
+images:
+  - image: images/corei5-8400.png
+  - image: images/corei78700.png
+  - image: images/core-i3-8100.png
 ---
