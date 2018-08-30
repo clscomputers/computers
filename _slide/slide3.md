@@ -1,4 +1,4 @@
 ---
 name: slide1
-img_path: images/b3.jpg
+img_path: /images/cpus.jpg
 ---
