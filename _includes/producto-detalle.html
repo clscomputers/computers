@@ -2,13 +2,13 @@
      <div class="flexslider">
 		  <ul class="slides">
           {% for style in include.product.images %}
-                     {%  if include.product.url %}
+                     
 		  	         <li data-thumb="{{ style.image | relative_url }}">
                          <div class="thumb-image"> 
-					        <img src="{{ style.image | relative_url }}" data-imagezoom="true" class="img-responsive" alt=""/> 
+					        <img src="{{ style.image | | relative_url }}" data-imagezoom="true" class="img-responsive" alt=""/> 
 				         </div>
                      </li>
-                     {% endif %}
+
          {% endfor %} 
 		  </ul>
 	 </div>
