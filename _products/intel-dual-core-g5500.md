@@ -7,5 +7,10 @@ fabricador: Intel
 categoria: procesador
 precio: 100 Bs
 detalle: frecuencia del procesador 3,80 GHz, caché de 4 M
-_image: images/corei5-8400.png
+_image: images/dualcoreg550.png
+
+
+images:
+  - image: images/dualcoreg550.png
+  - image: images/intedualcore.png
 ---

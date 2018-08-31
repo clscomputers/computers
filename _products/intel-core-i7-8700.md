@@ -12,7 +12,7 @@ _image: images/corei78700.png
 
 
 images:
-  - image: images/p7.jpg
-  - image: images/p7.jpg
-  - image: images/p7.jpg
+  - image: images/corei78700.png
+  - image: images/corei7-8700.png
+
 ---

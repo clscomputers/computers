@@ -1,7 +1,7 @@
 ---
-item-name: intel core i38100
+item-name: Intel core i38100
 descripcion: >-
-       Ahora las tareas informáticas diarias se pueden realizar de manera más rápida. Edite fotos y videos sin inconvenientes. Cambie entre programas y ventanas de manera rápida. Realice múltiples tareas fácilmente, puede transmitir videos 4K UHD, utilizar la potencia para realidad virtual y reproducir los videojuegos más exigentes.
+       Intel i3-8100, Core. Tipos de memoria que admite el procesador: DDR4-SDRAM. Salidas de adaptador de gráficos compatibles a bordo: DisplayPort,Embedded DisplayPort (eDP),HDMI, Frecuencia base de gráficos a bordo: 350 MHz, Adaptador de gráficos a bordo de frecuencia dinámica (max): 1100 MHz. Potencia de diseño térmico.
 
 fabricador: Intel
 categoria: procesador
@@ -11,7 +11,6 @@ _image: images/core-i3-8100.png
 
 
 images:
-  - image: images/corei5-8400.png
-  - image: images/corei78700.png
   - image: images/core-i3-8100.png
+  - image: images/dcorei38100.png
 ---
