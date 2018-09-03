@@ -10,9 +10,9 @@ description: Cls Computers servicios de reparacion de hardware y softdaware,como
 		<div class="container">
 			<div class="product-one">
 					  {% for product in site.products %}
+                         {% if product.categoria == "procesador" %}
                          <div class="col-md-3 product-left">
-
-						     <div class="product-main simpleCart_shelfItem">
+                             <div class="product-main simpleCart_shelfItem">
                                    <a href="{{ product.url | relative_url }}" class="mask">
                                	      <img class="img-responsive zoom-img" src="{{ product._image }}" alt="" />
 						           </a>
@@ -25,10 +25,10 @@ description: Cls Computers servicios de reparacion de hardware y softdaware,como
 							       <div class="srch">
 								        <span>-50%</span>
 							       </div>
-						    </div>
-						    
-					     </div>
-					{% endfor %}
+						     </div>
+						  </div>
+                         {% endif %}
+					  {% endfor %}
 					 <div class="clearfix"></div>
             </div>
         </div>
