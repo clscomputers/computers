@@ -1,0 +1,10 @@
+
+<button class="snipcart-add-item"
+	data-item-name="{{ include.product.item-name }}"
+	data-item-id="{{ include.product.item-id }}"
+	data-item-image="{{ include.product.images.first.image | relative_url}}"
+	data-item-description="{{ include.product.descripcion }}"
+	data-item-url="{{ include.product.url | relative_url}}"
+	data-item-price="{{ include.product.precio }}">
+	{% if include.text %}{{ include.text }}{% else %}Aderir{% endif %}
+</button>

@@ -52,4 +52,8 @@
 						});
 						</script>
 
+						
+{% if site.snipcart_key %}
+			<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
+{% endif %}
 </head>

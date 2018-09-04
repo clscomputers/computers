@@ -12,6 +12,7 @@ layout: default
 						 <div class="single-para simpleCart_shelfItem">
 						     <h2>{{ page.item-name }}</h2>
 							    <div class="star-on">
+
 								     <ul class="star-footer">
 										<li><a href="#"><i> </i></a></li>
 										<li><a href="#"><i> </i></a></li>
@@ -19,6 +20,7 @@ layout: default
 										<li><a href="#"><i> </i></a></li>
 										
 								     </ul>
+
 								     <div class="review">
 									  <a href="#">stats </a>
 									 </div>
@@ -27,6 +29,7 @@ layout: default
 
 							<h5 class="item_price">{{ page.precio }}</h5>
 							<p>{{ page.descripcion }}</p>
+
 							<ul class="tag-men">
 								<li><span>Procesador</span>
 								<span class="women1">: i3-8100</span></li>
@@ -36,7 +39,8 @@ layout: default
                                </span>
 								<span class="women1">: 3,60 GHz</span></li>
 							</ul>
-						    <a href="#" class="add-cart item_add">Comprar</a>
+
+						    <a href="#" class="add-cart item_add">{% include snipcart-button.html product=page %}</a>
 
 						 </div>
 					</div>
@@ -49,3 +53,7 @@ layout: default
 		</div>
 	</div>
 </div>
+
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
