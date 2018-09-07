@@ -12,6 +12,6 @@ _image: images/core-i3-8100.png
 
 
 images:
-  - image: /images/core-i3-8100.png
-  - image: /images/dcorei38100.png
+  - image: images/core-i3-8100.png
+  - image: images/dcorei38100.png
 ---
