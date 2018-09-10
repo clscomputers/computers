@@ -22,7 +22,7 @@ layout: default
 								     </ul>
 
 								     <div class="review">
-									  <a href="#">stats </a>
+									  <a href="#">{{ page.fabricador }} </a>
 									 </div>
 							         <div class="clearfix"> </div>
 							    </div>
@@ -31,13 +31,11 @@ layout: default
 							<p>{{ page.descripcion }}</p>
 
 							<ul class="tag-men">
-								<li><span>Procesador</span>
-								<span class="women1">: i3-8100</span></li>
-								<li><span>Nucleos</span>
-								<span class="women1">: 4</span></li>
-								<li><span>Frecuencia
-                               </span>
-								<span class="women1">: 3,60 GHz</span></li>
+								<li><span>{{ page.detalle }}</span>
+								<li><span>{{ page.categoria }}</span>
+									<li><span>Proveedor</span>
+								<span class="women1">Cls Computers</span></li>
+								
 							</ul>
 
 						    <a href="#" class="add-cart item_add">{% include snipcart-button.html product=page %}</a>
