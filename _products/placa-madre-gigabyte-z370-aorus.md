@@ -10,7 +10,7 @@ precio: '190.00'
 detalle: >- 
           Listo para Intel ® Core ™ i7 + / i5 + platforms, Intel Z370 targeta para jugadores con Intel Optane Memory Accelerated, RGB Fusion, Digital LED suporte, Triple M.2 con Thermal Guard, ESS SABER 9018 DAC, Dual LAN with Killer ™ + Intel ® , Front & rear USB 3.1 Gen 2 Type-C
           
-_image: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536599008/Cls-Computer/Cls-Computer-image/placa-madres/placa-madre-gigabyte-z370.png"
+img_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536599008/Cls-Computer/Cls-Computer-image/placa-madres/placa-madre-gigabyte-z370.png"
 
 
 images:

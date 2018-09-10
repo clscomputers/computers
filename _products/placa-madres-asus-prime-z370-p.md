@@ -16,7 +16,7 @@ detalle: >-
           Tarjeta madre gaming ATX LGA-1151 con iluminación LED, soporte DDR4 4000 MHz, dos M.2, SATA 6 Gbps y USB 3.1 Gen. 1.
           
 
-_image: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536601867/Cls-Computer/Cls-Computer-image/placa-madres/placa-madre-asus--z370-p.jpg"
+img_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536601867/Cls-Computer/Cls-Computer-image/placa-madres/placa-madre-asus--z370-p.jpg"
 
 
 images:

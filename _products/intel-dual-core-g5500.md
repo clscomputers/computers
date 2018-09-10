@@ -8,7 +8,7 @@ fabricador: Intel
 categoria: procesador
 precio: '30.00'
 detalle: frecuencia del procesador 3,80 GHz, caché de 4 M
-_image: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536338306/Cls-Computer/Cls-Computer-image/dualcoreg550.png"
+img_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536338306/Cls-Computer/Cls-Computer-image/dualcoreg550.png"
 
 
 images:

@@ -8,7 +8,7 @@ fabricador: Intel
 categoria: procesador
 precio: '150.00'
 detalle: Nucleos 6, frecuencia del procesador 3.20 GHz, 12mb cache inteligente
-_image: images/corei5-8400.png
+img_path: images/corei5-8400.png
 
 
 images:

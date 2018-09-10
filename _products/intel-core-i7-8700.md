@@ -8,7 +8,7 @@ fabricador: Intel
 categoria: procesador
 precio: '200.00'
 detalle: Nucleos 6, frecuencia del procesador 3.20 GHz, 12mb cache inteligente
-_image: images/corei78700.png
+img_path: images/corei78700.png
 
 
 

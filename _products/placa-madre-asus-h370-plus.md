@@ -11,7 +11,7 @@ detalle: >-
            Tarjeta madre Intel mATX gaming LGA-1151 con iluminación LED, DDR4 a 2666MHz, Dual M.2, listo para Intel Optane memory, HDMI, SATA 6Gbps y USB 3.1 Gen 2 nativo
 
 
-_image: images/placa-madre-asus-h370-plus.png
+img_path: images/placa-madre-asus-h370-plus.png
 
 
 images:

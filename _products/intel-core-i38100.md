@@ -8,7 +8,7 @@ fabricador: Intel
 categoria: procesador
 precio: '80.00'
 detalle: Nucleos 6, frecuencia del procesador 3.20 GHz, 12mb cache inteligente
-_image: images/core-i3-8100.png
+img_path: images/core-i3-8100.png
 
 
 images:

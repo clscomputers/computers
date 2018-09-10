@@ -9,7 +9,7 @@ precio: '70.00'
 detalle: >- 
           Tarjeta madre mATX Intel LGA-1151 con iluminación led, DDR4 a 2666MHz, soporte M.2, HDMI, SATA de 6Gbps y USB 3.1 Gen 1.
 
-_image: images/placa-madre-asus-h310-prime.png
+img_path: images/placa-madre-asus-h310-prime.png
 
 
 images:
