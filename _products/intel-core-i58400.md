@@ -5,7 +5,7 @@ descripcion: >-
       Tipos de memoria DDR4-2666, Canal de memoria 2, Soporte de tecnología de virtualización Sí, Gráficos integrados Intel UHD 630, Frecuencia base de gráficos 350 MHz, Gráficos Frecuencia dinámica máxima 1.05 GHz
 
 fabricador: Intel
-categoria: procesador
+categoria: Procesador
 precio: '150.00'
 detalle: Nucleos 6, frecuencia del procesador 3.20 GHz, 12mb cache inteligente
 img_path: images/corei5-8400.png
