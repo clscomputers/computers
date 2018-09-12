@@ -4,6 +4,8 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 body{
 	background:#fff;
 	font-family: 'Lato-Regular';
@@ -572,7 +574,7 @@ figure.effect-bubba h4,figure.effect-bubba h2 {
 	opacity:0;
 	color:#942645 !important;
 	font-size: 1.8em;
-    font-family: 'BreeSerif-Regular';
+    font-family: 'Bungee Inline', cursive;
 }
 figure.effect-bubba h4.gal {
 	padding-top: 21%;
@@ -591,8 +593,8 @@ figure.effect-bubba p {
 	-ms-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 	color:#00758f !important;
-	font-size: 1em;
-	font-family: 'Lato-Regular';
+	font-size: 0.8em;
+	font-family: 'Bungee Inline', cursive;
 }
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
@@ -626,11 +628,11 @@ figure.effect-bubba:hover p,figure.effect-bubba:hover h2 {
     padding: 3em 0px 6em 0px;
 }
 .product-bottom h3 {
-    font-size: 16px;
+    font-size: 15px;
     color: #000;
     margin: 0;
     text-transform: uppercase;
-	font-family: 'BreeSerif-Regular';
+	font-family: 'Bungee Inline', cursive;
 }
 .product-bottom h4 span{
     font-size: 17px;

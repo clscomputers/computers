@@ -1,8 +1,5 @@
-@font-face {
-    font-family: 'Racing Sans One', cursive;
-    src:url(../fonts/RacingSansOne-Regular.ttf) format('truetype');
-}
-
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900|Fugaz+One');
 .memenu {
     margin: 5px 0 0 0;
     padding: 0;
@@ -61,6 +58,7 @@
     color: #73B6E1;
     font-size: 1.1em;
     text-align: left;
+    font-family:'Bungee Inline', cursive;
 }
 .memenu .mepanel ul{
 	margin:0;
@@ -149,7 +147,7 @@
 }	
 .skyblue li>a,.skyblue>li.showhide span{
 	color: #337ab7;
-	font-family: 'Racing Sans One', cursive;
+	font-family: 'Fugaz One', cursive;
 }
 .skyblue>li:hover>a,.skyblue>li.active>a,.skyblue .dropdown li:hover>a{
 	color:#94cb32;
