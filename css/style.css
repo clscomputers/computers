@@ -519,7 +519,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	height: 100%;
 }
 figure.effect-bubba {
-	background: rgba(6, 107, 195, 0.85);
+	
 }
 figure.effect-bubba:hover img {
 	opacity: 0.3;
@@ -540,8 +540,8 @@ figure.effect-bubba figcaption::after {
 	transition: opacity 0.35s, transform 0.35s;
 }
 figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #00758f;
+	border-bottom: 1px solid #00758f;
 	-webkit-transform: scale(0,1);
 	-moz-transform: scale(0,1); 
 	-o-transform: scale(0,1);
@@ -549,8 +549,8 @@ figure.effect-bubba figcaption::before {
 	transform: scale(0,1);
 }
 figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
+	border-right: 1px solid #942645 !important;
+	border-left: 1px solid #942645 !important;
 	-webkit-transform: scale(1,0);
 	-moz-transform: scale(1,0);
 	-o-transform: scale(1,0);
@@ -570,7 +570,7 @@ figure.effect-bubba h4,figure.effect-bubba h2 {
 	-ms-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 	opacity:0;
-	color:#fff;
+	color:#942645 !important;
 	font-size: 1.8em;
     font-family: 'BreeSerif-Regular';
 }
@@ -590,7 +590,7 @@ figure.effect-bubba p {
 	-o-transform: translate3d(0,20px,0);
 	-ms-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
-	color:#fff;
+	color:#00758f !important;
 	font-size: 1em;
 	font-family: 'Lato-Regular';
 }

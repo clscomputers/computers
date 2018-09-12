@@ -1,12 +1,11 @@
-- image_path: images/abt-1.jpg
-  producto: Nulla maximus nunc
-  descripcion: joseLuiz
+- image_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536758083/slider-pequeno/pc.png"
+  producto: Pc de escritorios
+  descripcion: Te ofrecemos Pc, para gamers , ingenieros, estudiantes y Pymes 
+- image_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536758987/slider-pequeno/laptops-promo.jpg"
+  producto: Laptops
+  descripcion: Para todo tipo de industrias, comunidades tambien reparaciones
 
-- image_path: images/abt-2.jpg
-  producto: Mauris erat augue
-  descripcion: diego
-
-- image_path: images/abt-3.jpg
-  producto: Cras elit mauris
-  descripcion: clscomputers
+- image_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1536760892/slider-pequeno/intel.png"
+  producto: Procesadores
+  descripcion: Cls Computers te ofrece todos los cpu con la ultima Tecnologia
 
