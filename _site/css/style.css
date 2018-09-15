@@ -4,6 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 body{
@@ -725,10 +726,11 @@ a.mask {
 }
 .srch span {
     background: #94cb32;
-    color: #fff;
+    color: #00758f !important;
     font-size: 15px;
     font-weight: 400;
     padding: 10px 25px;
+    font-family: 'Bangers', cursive;
 }
 /*--product-end--*/
 /*--information-starts--*/
