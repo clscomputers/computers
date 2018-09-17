@@ -1,0 +1,33 @@
+---
+layout: page
+title: Monitores  en Cls Computer 
+description: Cls Computers Cochabamba-Bolivia ofrece monitores multiuso encuentralos en cls computer cochabamba-Bolivia.
+---
+	<div class="product"> 
+		<div class="container">
+			<div class="product-one">
+					  {% for product in site.products %}
+                         {% if product.categoria == "Monitor" %}
+                         <div class="col-md-3 product-left">
+                             <div class="product-main simpleCart_shelfItem">
+                                   <a href="{{ product.url | relative_url }}" class="mask">
+                               	      <img class="img-responsive zoom-img" src="{{ product.img_path }}" alt="" />
+						           </a>
+							       <div class="product-bottom">
+								        <h3>{{ product.item-name }}</h3>
+								        <p>{{  product.fabricador  | truncate: 45 | markdownify }}</p>
+								        <h4><a class="item_add" href="#"><i></i></a> 
+								        <span class=" item_price">{{ product.precio }}</span></h4>
+							       </div>
+							       <div class="srch">
+								        <span>Cls Computer</span>
+							       </div>
+						     </div>
+						  </div>
+                         {% endif %}
+					  {% endfor %}
+					 <div class="clearfix"></div>
+					  <div class="clearfix"></div>
+            </div>
+        </div>
+ </div>
