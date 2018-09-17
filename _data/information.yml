@@ -1,28 +1,22 @@
 toc:
-  - title: Group 1
+  - title: Grupo 1
     subfolderitems:
-      - page: Thing 1
-        url: /account.html
-      - page: Thing 2
-        url: /contact.html
-      - page: Thing 3
-        url: /products.html
-      - page: Thing 4
-        url: /single.html
-      - page: Thing 5
-        url: /typo.html
-  - title: Group 2
+      - page: Placas Madres
+        url: /cls-computer-placa-madres.html
+      - page: Memorias RAM
+        url: /cls-computer-memoria-ram.html
+      - page: Targeta de Video
+        url: /cls-computers-targeta-video.html
+      
+  - title: Grupo 2
     subfolderitems:
-      - page: Piece 1
+      - page: Procesadores
         url: /checkout.html
-      - page: Piece 2
+      - page: Discos duros
         url: /prueba.html
-      - page: Piece 3
+      - page: Monitores
         url: /products.html
-      - page: Piece 4
-        url: /typo.html
-      - page: Piece 5
-        url: /typo.html
+      
 
 
 socialmedia:  Siguenos
