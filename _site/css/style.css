@@ -7,6 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Bevan');
 body{
 	background:#fff;
 	font-family: 'Lato-Regular';
@@ -630,14 +631,14 @@ figure.effect-bubba:hover p,figure.effect-bubba:hover h2 {
 }
 .product-bottom h3 {
     font-size: 15px;
-    color: #000;
+    color: #8aadbf ;
     margin: 0;
     text-transform: uppercase;
 	font-family: 'Bungee Inline', cursive;
 }
 .product-bottom h4 span{
     font-size: 17px;
-    color: #000;
+    color: #f29111;
     margin: 5px 0 0 0;
     font-family: 'BreeSerif-Regular';
 }
@@ -659,9 +660,10 @@ figure.effect-bubba:hover p,figure.effect-bubba:hover h2 {
 }
 .product-bottom p {
 	font-size: 12px;
-    color: #999;
+    color: #00758f;
     margin: 5px 0 0 0;
     text-transform: uppercase;
+    font-family: 'Bevan', cursive;
 }
 .product-one:nth-child(2){
 	margin-top:30px;

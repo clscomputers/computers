@@ -1,16 +1,14 @@
 ---
-layout: default
-title: Cls Computers Service
-description: Cls Computers servicios de reparacion de hardware y softdaware,como tambien vendemos computadoras Desktops, Gaming Computers, laptops & y mucho mas. 
+layout: page
+title:  Cls Computers estabilizadores
+description: >- 
+             Cls Computers Cochabamba-Bolivia ofrece estabilizadores protegiendo el módem y la computadorade posibles accidentes électricos,ruidos y descargas atmósfericas que pueden entrar por la linea telefónica.
 ---
-
-{% include sliderindex.html %}
-	<!--Aqui comienzan los productos-->
-<div class="product"> 
+	<div class="product"> 
 		<div class="container">
 			<div class="product-one">
 					  {% for product in site.products %}
-                         {% if product.categoria == "Procesador" %}
+                         {% if product.categoria == "Estabilizador" %}
                          <div class="col-md-3 product-left">
                              <div class="product-main simpleCart_shelfItem">
                                    <a href="{{ product.url | relative_url }}" class="mask">
@@ -18,22 +16,19 @@ description: Cls Computers servicios de reparacion de hardware y softdaware,como
 						           </a>
 							       <div class="product-bottom">
 								        <h3>{{ product.item-name }}</h3>
-								        <p>{{  product.fabricador }}</p>
+								        <p>{{  product.fabricador  | truncate: 45 | markdownify }}</p>
 								        <h4><a class="item_add" href="#"><i></i></a> 
 								        <span class=" item_price">{{ product.precio }}</span></h4>
 							       </div>
 							       <div class="srch">
-								        <span>Cls Computers</span>
+								        <span>Cls Computer</span>
 							       </div>
 						     </div>
 						  </div>
                          {% endif %}
 					  {% endfor %}
 					 <div class="clearfix"></div>
+					  <div class="clearfix"></div>
             </div>
         </div>
-</div>
-
-
-
-
+ </div>
