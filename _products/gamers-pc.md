@@ -1,7 +1,7 @@
 ---
 item-name: GIGABYTE HORUS G CASE
 item-id: pc-gb-HG
-descripcion:
+descripcion: Case para  gamers Giga Byte
 fabricador: Giga Byte
 categoria: Gamers
 precio: '88.00'
