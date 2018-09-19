@@ -2,7 +2,7 @@
 item-name: Estabilizador 1000
 item-id: e-f-1000wtts  
 descripcion: >-
-        El nuevo estabilizador automático de tensión Atomlux permite navegar en forma segura por internet, ya que protege el módem y la computadora de posibles accidentes électricos,
+        El nuevo estabilizador automático de tensión Forza permite navegar en forma segura por internet, ya que protege el módem y la computadora de posibles accidentes électricos,
         ruidos y descargas atmósfericas que pueden entrar por la linea telefónica.
 fabricador: Forza
 categoria: Estabilizador
