@@ -1,25 +1,25 @@
 ---
-item-name: GA-AX370-Gaming 3 
-item-id: g-gigabyte-GA-AX370 
-descripcion: >- 
-            Supports AMD Ryzen™ & 7th Generation A-series / Athlon™ Processors
-            Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs
-            Fast 2 USB 3.1 Gen 2 with USB Type-A
-            2-Way CrossFire™ Multi-Graphics Support with Ultra Durable™ Metal Shielding over PCIe Slots
-            Ultra-Fast PCIe Gen3 x4 M.2 with PCIe NVMe & SATA mode support
-            ALC1220 120dB SNR HD Audio with Smart Headphone Amp
-            Realtek® Gigabit LAN with cFosSpeed Internet Accelerator Software
+item-name: Chassis - NEW ARK 90
+item-id: dc-case-na90
+descripcion: >-
+  El compartimento ultra amplio del case, de 230 mm, con espacio adicional (25
+  mm) para los cables ofrece un rendimiento de refrigeración extremo y una
+  instalación sencilla
 
-       
-
-fabricador: GigaByte
+  El sistema de refrigeración líquida de la serie CAPTAIN especialmente diseñado
+  con radiadores de 280 mm y ventiladores de 3 piezas RGB de 140 mm instalados
+  verticalmente en el panel lateral puede reducir el impacto en el rendimiento
+  de disipación de calor de la CPU causado por la tarjeta gráfica
+fabricador: Deep Cool
 categoria: Gamers
-
-precio: '80.00'
-detalle: 
-img_path: "https://res.cloudinary.com/clscomputerservice/image/upload/v1537372666/cls-computers-gamers/gaming-pm-g.png"
-
-
+precio: '60.00'
+detalle: Aplicable a Intel  LGA20XX/LGA1366/LGA115X
+img_path: >-
+  https://res.cloudinary.com/clscomputerservice/image/upload/v1537807154/cls-computers-gamers/deepcool-case1.jpg
 images:
-  - image: "https://res.cloudinary.com/clscomputerservice/image/upload/v1537372666/cls-computers-gamers/gaming-pm-g.png"
+  - image: >-
+      https://res.cloudinary.com/clscomputerservice/image/upload/v1537807194/cls-computers-gamers/deepcool-case2.jpg
+  - image: >-
+      https://res.cloudinary.com/clscomputerservice/image/upload/v1537807177/cls-computers-gamers/deepcool-case.jpg
 ---
+
