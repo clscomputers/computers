@@ -15,10 +15,11 @@ categoria: Gamers
 precio: '60.00'
 detalle: Aplicable a Intel  LGA20XX/LGA1366/LGA115X
 img_path: >-
-  https://res.cloudinary.com/clscomputerservice/image/upload/v1537372666/cls-computers-gamers/gaming-pm-g.png
+  https://res.cloudinary.com/clscomputerservice/image/upload/v1537807154/cls-computers-gamers/deepcool-case1.jpg
 images:
   - image: >-
-      https://res.cloudinary.com/clscomputerservice/image/upload/v1537372666/cls-computers-gamers/gaming-pm-g.png
-  - image:
+      https://res.cloudinary.com/clscomputerservice/image/upload/v1537807194/cls-computers-gamers/deepcool-case2.jpg
+  - image: >-
+      https://res.cloudinary.com/clscomputerservice/image/upload/v1537807177/cls-computers-gamers/deepcool-case.jpg
 ---
 
