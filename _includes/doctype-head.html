@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a9d882169eea20013a1980b&product=sticky-share-buttons"></script>
-<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ default: site.title | escape }}{% endif %}</title>
+ {% include head.html %}
 <link href="{{'/css/bootstrap.css'| relative_url}}" rel="stylesheet" type="text/css" media="all" />
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="{{'/js/jquery-1.11.0.min.js' | relative_url}}"></script>
@@ -12,7 +12,7 @@
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keyword" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 </script>
