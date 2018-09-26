@@ -52,7 +52,7 @@ rebate:
 apply_promo_code:
 "Aplicar código de promoción",
 my_cart:
-"Carrito",
+"Cls Computer",
 my_cart_content:
 "Contenido del carrito",
 shipping_method:
