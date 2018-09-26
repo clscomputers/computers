@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a9d882169eea20013a1980b&product=sticky-share-buttons"></script>
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ default: site.title | escape }}{% endif %}</title>
@@ -55,5 +55,6 @@
 						
 {% if site.snipcart_key %}
 			<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
+			<script src=" {{ '/locales/es.js' | relative_url }}"></script>
 {% endif %}
 </head>
